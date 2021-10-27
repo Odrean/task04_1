@@ -10,7 +10,7 @@ public class Main {
         System.out.printf("Sum2: %f%n", sum2);
     }
 
-    private static double calculateSum1() {
+    static double calculateSum1() {
         double sum = 0;
         for (int i = 1; i <= 50; i++) {
             sum += 1 / Math.pow(i, 3);
@@ -19,7 +19,7 @@ public class Main {
         return sum;
     }
 
-    private static double calculateSum2() {
+    static double calculateSum2() {
         double sum = 0;
         for (int i = 2; i <= 128; i+=2) {
             sum += 1 / Math.pow(i, 2);
